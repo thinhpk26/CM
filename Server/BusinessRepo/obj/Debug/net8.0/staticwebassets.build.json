@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "/zt7lNV11ARbfXQA0YO9EA0j+zBFriWIU5yUqQiU1LY=",
+  "Source": "BusinessRepo",
+  "BasePath": "_content/BusinessRepo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\Repo.csproj",
+      "Version": 2,
+      "Source": "Repo",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

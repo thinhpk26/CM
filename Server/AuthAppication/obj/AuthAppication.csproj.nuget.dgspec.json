@@ -1,0 +1,422 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthAppication\\AuthAppication.csproj": {}
+  },
+  "projects": {
+    "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\ApplicationNew\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\ApplicationNew\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\ApplicationNew\\Application.csproj",
+        "packagesPath": "C:\\Users\\thinh\\.nuget\\packages\\",
+        "outputPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\ApplicationNew\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthRepo\\AuthRepo.csproj": {
+                "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthRepo\\AuthRepo.csproj"
+              },
+              "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\Repo.csproj": {
+                "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\Repo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthAppication\\AuthAppication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthAppication\\AuthAppication.csproj",
+        "projectName": "AuthAppication",
+        "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthAppication\\AuthAppication.csproj",
+        "packagesPath": "C:\\Users\\thinh\\.nuget\\packages\\",
+        "outputPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthAppication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\ApplicationNew\\Application.csproj": {
+                "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\ApplicationNew\\Application.csproj"
+              },
+              "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthRepo\\AuthRepo.csproj": {
+                "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthRepo\\AuthRepo.csproj"
+              },
+              "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\BusinessRepo\\BusinessRepo.csproj": {
+                "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\BusinessRepo\\BusinessRepo.csproj"
+              },
+              "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\Utility\\Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthRepo\\AuthRepo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthRepo\\AuthRepo.csproj",
+        "projectName": "AuthRepo",
+        "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthRepo\\AuthRepo.csproj",
+        "packagesPath": "C:\\Users\\thinh\\.nuget\\packages\\",
+        "outputPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthRepo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\BusinessRepo\\BusinessRepo.csproj": {
+                "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\BusinessRepo\\BusinessRepo.csproj"
+              },
+              "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\Repo.csproj": {
+                "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\Repo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.44, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\BusinessRepo\\BusinessRepo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\BusinessRepo\\BusinessRepo.csproj",
+        "projectName": "BusinessRepo",
+        "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\BusinessRepo\\BusinessRepo.csproj",
+        "packagesPath": "C:\\Users\\thinh\\.nuget\\packages\\",
+        "outputPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\BusinessRepo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\Repo.csproj": {
+                "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\Repo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.44, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\Repo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\Repo.csproj",
+        "projectName": "Repo",
+        "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\Repo.csproj",
+        "packagesPath": "C:\\Users\\thinh\\.nuget\\packages\\",
+        "outputPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\Utility\\Utility.csproj": {
+                "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\Utility\\Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.44, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\Utility\\Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\Utility\\Utility.csproj",
+        "projectName": "Utility",
+        "projectPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\Utility\\Utility.csproj",
+        "packagesPath": "C:\\Users\\thinh\\.nuget\\packages\\",
+        "outputPath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

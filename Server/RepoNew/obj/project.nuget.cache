@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "TM4VTU0HZyBtrACLGqH9Bo6ELTD81rnK3P5WF9TCPGMSc4NTlKqEctAeCHMOH1hbniID/Op4QYTCYwmgLTfgRw==",
+  "success": true,
+  "projectFilePath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\RepoNew\\Repo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thinh\\.nuget\\packages\\dapper\\2.1.44\\dapper.2.1.44.nupkg.sha512",
+    "C:\\Users\\thinh\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\thinh\\.nuget\\packages\\mysqlconnector\\2.3.6\\mysqlconnector.2.3.6.nupkg.sha512"
+  ],
+  "logs": []
+}

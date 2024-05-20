@@ -1,0 +1,18 @@
+liệt kê danh sách lỗi => Trả về key => nếu không có key thì render value
+
+Danh sách:
+- Author: Bạn không có quyền truy cập ứng dụng, vui lòng đăng nhập lại.
+- Login_Account_Empty: Tài khoản không được để trống.
+- Login_Password_Empty: Mật khẩu không được để trống.
+- Login_User: Tài khoản không chính xác.
+- Login_CompanyCode: Không nhận diện được công ty.
+- RegisNewDomain_User: tài khoản, mật khẩu không chính xác.
+- RegisEmployee_Expert: không tồn tại hoặc đã bị expert.
+- Error_token: Đăng nhập lại.
+- CreateComfirmCode_company: Công ty không chính xác.
+- ConfirmCode_Expert: hết hạn code.
+- User_Exist: Người dùng đã tồn tại.
+- EntityCode: Mã bị trùng
+
+client: thêm controller service
+server: thêm layoutCode controller

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cpauP5nNmt2C3sqdXSVSLd6xxwc3yXP/kzaDasyT9HX4FH+ZX1bqAGZ/x3Jm5cye5W3uU5KxkMu2o1AMzMJZbQ==",
+  "success": true,
+  "projectFilePath": "D:\\School\\Course_8\\Đồ án tốt nghiệp\\Server\\AuthRepo\\AuthRepo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thinh\\.nuget\\packages\\dapper\\2.1.44\\dapper.2.1.44.nupkg.sha512",
+    "C:\\Users\\thinh\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\thinh\\.nuget\\packages\\mysqlconnector\\2.3.6\\mysqlconnector.2.3.6.nupkg.sha512"
+  ],
+  "logs": []
+}

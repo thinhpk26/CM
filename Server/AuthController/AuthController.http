@@ -1,0 +1,6 @@
+@AuthController_HostAddress = http://localhost:5075
+
+GET {{AuthController_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
